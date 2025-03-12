@@ -13,7 +13,9 @@ def calcular_pares_lista(lista):
         if i % 2 == 0:
             suma = suma + i
             n_p = n_p+1
-    return suma / n_p
+    promedio = suma/n_p
+    return promedio
+
 
      
     #Creamos una lista vacìa
@@ -22,7 +24,7 @@ lista = []
 n = int(input("Digite el tamaño de la lista: "))
 
 for i in range(n):
-    num = random.randint(14,18)
+    num = random.randint(1, n)
     lista.append(num)
 
 #Procesamiento
