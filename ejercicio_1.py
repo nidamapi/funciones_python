@@ -9,7 +9,7 @@ def mostrarNombre(nombre):
         print(f"{i}{nombre}")
 
 #Entrada
-nombre=input("Digite: ")
+nombre = input("Digite: ")
 
 #Procesamiento
 mostrarNombre(nombre)
