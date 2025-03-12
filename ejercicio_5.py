@@ -32,4 +32,4 @@ print("Lista: ", lista)
 print("El promedio de la lista es: ", calcular_pares_lista(lista))
 
 #Salida
-print("\nEso era...")
+print("\nEso era... ")
